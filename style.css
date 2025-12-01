@@ -1,0 +1,93 @@
+body{
+  font-size: 12px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+}
+
+#container{
+  font-size: 90%;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+#header{
+  border: 1px dashed#00f;
+  min-height: 75px;
+  padding: 10px;
+  gap: 15px;
+  display: flex;
+  background-color: #9cf;
+}
+
+#header h1{
+  color: #039;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+}
+
+#sidebar{
+  border: 1px dashed#00f;
+  width: 150px;
+  margin-top: 10px;
+  float: left;
+  background-color: #9cf;
+}
+
+#sidebar h3{
+  color: #930;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-left: 10px;
+}
+
+ul#navmenu{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul#navmenu li{
+  margin-bottom: 5px;
+}
+
+ul#navmenu a{
+  display: block;
+  color: #eec111;
+  background-color: #036;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+ul#navmenu a:hover,ul#navmenu a:focus,ul#navmenu a:active{
+  background-color: #333;
+  color: #fff;
+}
+
+ul#navmenu a.selected{
+  background-color: #336088;
+  color: #fff;
+}
+
+#page{
+  width: 80%;
+  padding: 10px;
+  margin-top: 10px;
+  float: right;
+  border: 1px dashed #00f;
+}
+
+#page h2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #930;
+}
+
+#clear{
+  clear: both;
+}
+
+#footer{
+  background-color: #9cf;
+  margin-top: 10px;
+  text-align: center;
+  border: 1px dashed #001f;
+}
